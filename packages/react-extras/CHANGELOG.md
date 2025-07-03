@@ -1,5 +1,11 @@
 # @gamedev-sensei/react-extras
 
+## 1.1.1
+
+### Patch Changes
+
+- b9ab7ce: Added missing repository field
+
 ## 1.1.0
 
 ### Minor Changes
