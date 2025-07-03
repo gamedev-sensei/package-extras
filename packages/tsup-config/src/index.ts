@@ -1,5 +1,4 @@
 import {defineConfig, Options} from "tsup";
-import alias from "esbuild-plugin-alias"
 
 export type TSupConfig = ReturnType<typeof defineConfig>
 export type PackageConfigProps = Options | Options[]
@@ -10,10 +9,7 @@ export function definePackageConfig(config: PackageConfigProps = []): TSupConfig
         dts: true,
         splitting: false,
         sourcemap: true,
-        clean: true,
-        esbuildPlugins: [
-            alias({ "@": "./src" })
-        ]
+        clean: true
     }
 
     return defineConfig([ defaultOptions, ...(Array.isArray(config) ? config : [ config ]) ])

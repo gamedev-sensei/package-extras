@@ -33,6 +33,6 @@
         "@gamedev-sensei/tsup-config": "1.0.0",
         "@types/react": "^19.1.8",
         "@types/react-dom": "^19.1.6",
-        "tsup": "^8.5.0"
+        "tsup": "patch:tsup@npm%3A8.5.0#~/.yarn/patches/tsup-npm-8.5.0-e9d25b74d7.patch"
     }
 }

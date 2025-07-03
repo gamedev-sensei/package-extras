@@ -1,6 +1,3 @@
 {
-    "extends": "@gamedev-sensei/ts-config/react.tsconfig.json",
-    "compilerOptions": {
-        "rootDir": "src"
-    }
+    "extends": "@gamedev-sensei/ts-config/react.tsconfig.json"
 }

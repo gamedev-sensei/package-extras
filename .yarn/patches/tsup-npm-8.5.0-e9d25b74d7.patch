@@ -1,0 +1,13 @@
+diff --git a/dist/rollup.js b/dist/rollup.js
+index 65df1bfcedaf873043fd82492afbb7a2926654a5..f32a5d54693670f3ccd023982335f5f1c8f8809d 100644
+--- a/dist/rollup.js
++++ b/dist/rollup.js
+@@ -6717,7 +6717,7 @@ var parseCompilerOptions = (compilerOptions) => {
+   const { options } = _typescript2.default.parseJsonConfigFileContent(
+     { compilerOptions },
+     _typescript2.default.sys,
+-    "./"
++    _path2.default.resolve("./")
+   );
+   return options;
+ };

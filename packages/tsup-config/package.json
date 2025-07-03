@@ -26,6 +26,6 @@
         "@arethetypeswrong/cli": "^0.18.2",
         "@gamedev-sensei/ts-config": "1.0.0",
         "esbuild-plugin-alias": "^0.2.1",
-        "tsup": "^8.5.0"
+        "tsup": "patch:tsup@npm%3A8.5.0#~/.yarn/patches/tsup-npm-8.5.0-e9d25b74d7.patch"
     }
 }

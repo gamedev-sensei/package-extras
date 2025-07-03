@@ -10,7 +10,7 @@
   ],
   "private": true,
   "devDependencies": {
-    "tsup": "^8.5.0",
+    "tsup": "patch:tsup@npm%3A8.5.0#~/.yarn/patches/tsup-npm-8.5.0-e9d25b74d7.patch",
     "turbo": "^2.5.4",
     "typescript": "^5.8.3"
   },
