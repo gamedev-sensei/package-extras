@@ -1,0 +1,8 @@
+{
+  "extends": "@gamedev-sensei/ts-config/tsconfig.json",
+  "compilerOptions": {
+    "lib": [ "dom", "dom.iterable", "esnext" ],
+    "jsx": "preserve",
+    "plugins": [ { "name": "next" } ]
+  }
+}
