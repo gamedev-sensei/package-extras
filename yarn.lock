@@ -479,6 +479,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@gamedev-sensei/package-extras@workspace:."
   dependencies:
+    "@arethetypeswrong/cli": "npm:^0.18.2"
     "@changesets/cli": "npm:^2.29.5"
     "@unts/patch-package": "npm:^8.1.1"
     tsup: "npm:^8.5.0"
