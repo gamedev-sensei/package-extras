@@ -8,8 +8,10 @@ on:
     types: [published]
 jobs:
   on-success:
-    needs: publish
     runs-on: ubuntu-latest
+    needs: publish
+    steps:
+     - run: echo "Finished publishing after release workflow!"
   publish:
     runs-on: ubuntu-latest
     permissions:
