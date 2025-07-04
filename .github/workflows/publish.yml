@@ -3,9 +3,13 @@ on:
   workflow_run:
     workflows: [Release]
     types: [completed]
+  workflow_dispatch:
   release:
     types: [published]
 jobs:
+  on-success:
+    needs: publish
+    runs-on: ubuntu-latest
   publish:
     runs-on: ubuntu-latest
     permissions:
