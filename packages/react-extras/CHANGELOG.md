@@ -1,5 +1,11 @@
 # @gamedev-sensei/react-extras
 
+## 1.1.2
+
+### Patch Changes
+
+- 5b9cff3: Fixed package definition and applied proper patch
+
 ## 1.1.1
 
 ### Patch Changes

@@ -492,8 +492,8 @@ __metadata:
   resolution: "@gamedev-sensei/react-extras@workspace:packages/react-extras"
   dependencies:
     "@arethetypeswrong/cli": "npm:^0.18.2"
-    "@gamedev-sensei/ts-config": "npm:1.1.1"
-    "@gamedev-sensei/tsup-config": "npm:1.1.1"
+    "@gamedev-sensei/ts-config": "npm:1.1.2"
+    "@gamedev-sensei/tsup-config": "npm:1.1.2"
     "@types/react": "npm:^19.1.8"
     "@types/react-dom": "npm:^19.1.6"
     react: "npm:^19.1.0"
@@ -503,7 +503,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@gamedev-sensei/ts-config@npm:1.1.1, @gamedev-sensei/ts-config@workspace:packages/ts-config":
+"@gamedev-sensei/ts-config@npm:1.1.2, @gamedev-sensei/ts-config@workspace:packages/ts-config":
   version: 0.0.0-use.local
   resolution: "@gamedev-sensei/ts-config@workspace:packages/ts-config"
   dependencies:
@@ -511,12 +511,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@gamedev-sensei/tsup-config@npm:1.1.1, @gamedev-sensei/tsup-config@workspace:packages/tsup-config":
+"@gamedev-sensei/tsup-config@npm:1.1.2, @gamedev-sensei/tsup-config@workspace:packages/tsup-config":
   version: 0.0.0-use.local
   resolution: "@gamedev-sensei/tsup-config@workspace:packages/tsup-config"
   dependencies:
     "@arethetypeswrong/cli": "npm:^0.18.2"
-    "@gamedev-sensei/ts-config": "npm:1.1.1"
+    "@gamedev-sensei/ts-config": "npm:1.1.2"
     esbuild-plugin-alias: "npm:^0.2.1"
     tsup: "npm:^8.5.0"
   languageName: unknown

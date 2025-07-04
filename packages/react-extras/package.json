@@ -1,7 +1,7 @@
 {
     "name": "@gamedev-sensei/react-extras",
     "repository": "git@github.com:gamedev-sensei/package-extras.git",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "license": "MIT",
     "main": "dist/index.js",
     "module": "dist/index.mjs",
@@ -30,8 +30,8 @@
         "remeda": "^2.23.3"
     },
     "devDependencies": {
-        "@gamedev-sensei/ts-config": "1.1.1",
-        "@gamedev-sensei/tsup-config": "1.1.1",
+        "@gamedev-sensei/ts-config": "1.1.2",
+        "@gamedev-sensei/tsup-config": "1.1.2",
         "@types/react": "^19.1.8",
         "@types/react-dom": "^19.1.6",
         "tsup": "^8.5.0"

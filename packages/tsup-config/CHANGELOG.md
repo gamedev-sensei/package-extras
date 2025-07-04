@@ -1,5 +1,12 @@
 # @gamedev-sensei/tsup-config
 
+## 1.1.2
+
+### Patch Changes
+
+- 5b9cff3: Fixed package definition and applied proper patch
+  - @gamedev-sensei/ts-config@1.1.2
+
 ## 1.1.1
 
 ### Patch Changes
