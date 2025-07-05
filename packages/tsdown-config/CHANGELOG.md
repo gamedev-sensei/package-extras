@@ -1,5 +1,11 @@
 # @gamedev-sensei/tsup-config
 
+## 2.0.0
+
+### Major Changes
+
+- 2bdde1a: Switched from tsup to tsdown
+
 ## 1.1.2
 
 ### Patch Changes
