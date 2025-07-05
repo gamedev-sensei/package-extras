@@ -1,4 +1,4 @@
-import {defineConfig, Options} from "tsup";
+import {defineConfig, Options} from "tsdown";
 
 export type TSupConfig = ReturnType<typeof defineConfig>
 export type PackageConfigProps = Options | Options[]
@@ -7,9 +7,9 @@ export function definePackageConfig(config: PackageConfigProps = []): TSupConfig
         entry: ['src/index.ts'],
         format: ['esm', 'cjs'],
         dts: true,
-        splitting: false,
         sourcemap: true,
-        clean: true
+        clean: true,
+        skipNodeModulesBundle: true
     }
 
     return defineConfig([ defaultOptions, ...(Array.isArray(config) ? config : [ config ]) ])

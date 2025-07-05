@@ -21,7 +21,7 @@
     },
     "scripts": {
         "type-check": "tsc --noEmit",
-        "build": "tsup && attw --pack ."
+        "build": "tsdown && attw --pack ."
     },
     "dependencies": {
         "@arethetypeswrong/cli": "^0.18.2",
@@ -31,9 +31,9 @@
     },
     "devDependencies": {
         "@gamedev-sensei/ts-config": "1.1.2",
-        "@gamedev-sensei/tsup-config": "1.1.2",
+        "@gamedev-sensei/tsdown-config": "1.1.2",
         "@types/react": "^19.1.8",
         "@types/react-dom": "^19.1.6",
-        "tsup": "^8.5.0"
+        "tsdown": "^0.12.9"
     }
 }
