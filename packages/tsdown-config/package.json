@@ -1,7 +1,7 @@
 {
     "name": "@gamedev-sensei/tsdown-config",
     "repository": "git@github.com:gamedev-sensei/package-extras.git",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "license": "MIT",
     "main": "dist/index.js",
     "module": "dist/index.mjs",
@@ -28,7 +28,7 @@
     },
     "devDependencies": {
         "@arethetypeswrong/cli": "^0.18.2",
-        "@gamedev-sensei/ts-config": "2.0.0",
+        "@gamedev-sensei/ts-config": "2.0.1",
         "tsdown": "^0.12.9"
     }
 }

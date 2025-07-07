@@ -1,5 +1,11 @@
 # @gamedev-sensei/ts-config
 
+## 2.0.1
+
+### Patch Changes
+
+- 16c58c8: Added some stricter options
+
 ## 2.0.0
 
 ### Major Changes
