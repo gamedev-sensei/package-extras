@@ -1,3 +1,3 @@
-import {definePackageConfig} from "./src";
+import { definePackageConfig } from "./src/index";
 
-export default definePackageConfig()
+export default definePackageConfig({ attw: true })
