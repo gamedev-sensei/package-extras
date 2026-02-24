@@ -1,5 +1,11 @@
 # @gamedev-sensei/tsup-config
 
+## 2.1.0
+
+### Minor Changes
+
+- 107474f: Excluded tests from tsdown config by default
+
 ## 2.0.1
 
 ## 2.0.0
