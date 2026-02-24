@@ -1,3 +1,10 @@
-import { definePackageConfig } from "./src/index";
+import {defineConfig} from "tsdown";
 
-export default definePackageConfig({ attw: true })
+export default defineConfig({
+    entry: ["src/index.ts"],
+    format: ["esm", "cjs"],
+    dts: true,
+    sourcemap: true,
+    clean: true,
+    skipNodeModulesBundle: true
+})

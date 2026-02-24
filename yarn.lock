@@ -29,7 +29,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@arethetypeswrong/core@npm:0.18.2":
+"@arethetypeswrong/core@npm:0.18.2, @arethetypeswrong/core@npm:^0.18.2":
   version: 0.18.2
   resolution: "@arethetypeswrong/core@npm:0.18.2"
   dependencies:
@@ -416,7 +416,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@gamedev-sensei/tsdown-config@workspace:packages/tsdown-config"
   dependencies:
-    "@arethetypeswrong/cli": "npm:^0.18.2"
+    "@arethetypeswrong/core": "npm:^0.18.2"
     "@gamedev-sensei/ts-config": "npm:2.1.0"
     esbuild-plugin-alias: "npm:^0.2.1"
     tsdown: "npm:^0.12.9"
