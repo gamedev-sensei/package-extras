@@ -1,11 +1,14 @@
 name: Publish Package to npmjs
 on:
   workflow_run:
-    workflows: [Release]
-    types: [completed]
+    workflows: [ Release ]
+    types: [ completed ]
   workflow_dispatch:
   release:
-    types: [published]
+    types: [ published ]
+permissions:
+  id-token: write
+  contents: read
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -31,5 +34,4 @@ jobs:
       - name: Publish to npm
         run: npm publish --workspaces --provenance --access public
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_CONFIG_PROVENANCE: true
